@@ -1,7 +1,11 @@
 db:
   image: mysql
+  volumes:
+    - ./database/mysql:/var/lib/mysql
+    - ./database/:/database
   environment:
     - MYSQL_ROOT_PASSWORD=test123
+  command: "/database/run.sh"
 
 blog:
   image: wordpress
