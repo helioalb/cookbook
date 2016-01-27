@@ -87,7 +87,7 @@
 
 ## Create new container with Dockerfile :page_facing_up:
 
-> Use this [file](https://github.com/helioalb/cookbook/blob/master/docker/Dockerfile)
+> Use this [file](https://github.com/helioalb/cookbook/blob/master/docker/container-factory/Dockerfile)
 
 > `docker build -t ubuntu/apache .`
 
