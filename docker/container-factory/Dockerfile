@@ -2,9 +2,9 @@ FROM ubuntu
 
 RUN apt-get update && apt-get install -y apache2
 
-ADD app/ /var/www/html
+ADD mysite/ /var/www/html
 
-COPY app/ /var/www/html/app
+COPY mysite/ /var/www/html/mysite
 
 EXPOSE 80
 
