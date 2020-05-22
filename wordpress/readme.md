@@ -2,6 +2,6 @@
 
 ## How to know block attributes
 
-```javascrip
+```javascript
 console.log(wp.blocks.getBlockType( 'core/button' ).attributes)
 ```
