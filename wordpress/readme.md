@@ -74,5 +74,5 @@ for this :point_up: output use the code below:
 ```php
     remove_action( 'genesis_header', 'genesis_header_markup_open', 5);
     remove_action ( 'genesis_header', 'genesis_header_markup_close', 15);
-    remove_action( 'genesis_header', array( 'EnglishPage', 'foo'), 15);
+    remove_action( 'genesis_header', array( 'EnglishPage', 'foo'));
 ```
