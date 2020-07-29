@@ -2,8 +2,8 @@
 
 ## How to know block attributes
 
-```javascrip
-console.log(wp.blocks.getBlockType( 'core/button' ).attributes
+```javascript
+console.log(wp.blocks.getBlockType( 'core/button' ).attributes)
 ```
 
 ## How to know attributes to remove a hook (with example)
