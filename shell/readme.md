@@ -34,4 +34,9 @@ Permissão de escrita para grupo
 sudo chmod g+w /var/www/html/
 ```
 
+Compactar diretório com tar
+
+```shell
+tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
+```
 Fazer diretórios filhos seguirem grupo do diretório pai
